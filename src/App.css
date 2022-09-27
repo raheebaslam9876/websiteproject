@@ -6,6 +6,70 @@
   height: 40vmin;
   pointer-events: none;
 }
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.btn.btn.btn-outline-success{
+  float:right
+}
+.navbar-nav {
+  padding-left:30px;
+  padding-right:30px;
+}
+.sc-olbas page-footer shadow{
+  position: fixed;
+}
+.Reg-form-container{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+background-color:gray;
+align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.Reg-form{
+  width: 500px;
+  background-color:white;
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  box-shadow:rgb(0, 0, 0/16%) 1px 1px 10px;
+}
+.Reg-form-content{
+  padding-left: 10%;
+  padding-right: 12%;
+}
+.error-label{
+  color:red;
+  float: left;
+  font-size: 12px;
+}
+.Reg-title{
+  text-align: center;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+label{
+  font-size: 14px;
+  font-weight: 600;
+  float: left;
+  color: rgb(34, 34, 34);
+}
+.register-link{
+  text-decoration: none;
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid purple;
+}
+.formSection{
+  height: 800px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
