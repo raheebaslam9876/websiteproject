@@ -64,7 +64,7 @@ const SignUp = () => {
                                             </form>
                                         </div>
                                         <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                                            <img src={myImg} className="img-fluid" alt="Sample" />
+                                            <img src={myImg} className="img-fluid animated" alt="Sample" />
                                         </div>
                                     </div>
                                 </div>

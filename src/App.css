@@ -20,6 +20,7 @@
   position: fixed;
 }
 .Reg-form-container{
+  
 width: 100vw;
 height: 100vh;
 display: flex;
@@ -69,6 +70,38 @@ label{
 }
 .formSection{
   height: 800px;
+}
+.img-fluid-animated{
+  width: 700px;
+  height: 500px;
+}
+#header .header-img{
+  text-align: right;
+}
+#header{
+  width:100%;
+  height:70vh;
+  margin-top: 40px;
+}
+#header h1{
+  margin:0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color:black;
+}
+#header .brand-name{
+  color:blue;
+}
+#header .animated{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+0%{
+  transform:translateY(10px);
+}
+100%{
+  transform:translateY(-10px);
+}
 }
 
 @media (prefers-reduced-motion: no-preference) {

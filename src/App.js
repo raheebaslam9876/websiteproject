@@ -7,6 +7,7 @@ import SignIn from './components/SignIn'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavbarWeb from './components/NavbarWeb'
 import FooterWeb from './components/FooterWeb'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -16,12 +17,14 @@ function App() {
         <div>
           <NavbarWeb />
           <Routes>
-            <Route path='/' exact element={<UserRegistration />} />
+            <Route path='/' exact element={<Home />} />
+            <Route path='/UserRegistration' exact element={<UserRegistration />} />
             <Route path='/SignIn' exact element={<SignIn />} />
           </Routes>
+          <FooterWeb />
         </div>
       </BrowserRouter>
-      <FooterWeb />
+
     </div>
   );
 }
